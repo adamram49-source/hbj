@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>Bomb Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home">
+  <h1>🎯 משחק הפצצות</h1>
+  <button id="createBtn">פתח משחק</button>
+  <p id="codeText"></p>
+
+  <input id="joinInput" placeholder="הכנס קוד">
+  <button id="joinBtn">הצטרף למשחק</button>
+</div>
+
+<div id="game" class="hidden">
+  <h2 id="status"></h2>
+  <div id="hearts"></div>
+  <div id="board"></div>
+  <p id="info"></p>
+  <button id="backHome" class="hidden">חזרה הביתה</button>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
