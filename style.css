@@ -1,0 +1,40 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.hidden { display: none; }
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 12px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #475569;
+  cursor: pointer;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle.removed {
+  visibility: hidden;
+}
+
+.mine {
+  background: #1e293b;
+}
+
+#hearts {
+  font-size: 22px;
+}
